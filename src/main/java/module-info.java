@@ -29,4 +29,6 @@ module javafx.gui.lab {
  * this module ('javafx.gui.lab') will also implicitly require 'javafx.graphics'.
  */
  requires transitive javafx.graphics;
+
+  opens se.lu.ics.controllers to javafx.fxml;
 }
