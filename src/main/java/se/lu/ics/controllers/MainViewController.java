@@ -76,7 +76,7 @@ public class MainViewController {
     public void handleButtonCustomerDeleteAction(ActionEvent event) {
         String customerId = textFieldCustomerId.getText();
         customerRegister.removeCustomer(customerId);
-        String response = "Customer deleted";
+        String response = "Customer " + customerId +  " deleted";
         labelResponse.setText(response);
     }
 
@@ -85,7 +85,7 @@ public class MainViewController {
         String customerId = textFieldCustomerId.getText();
         String name = textFieldCustomerName.getText();
         customerRegister.setCustomerName(customerId, name);
-        String response = "Customer name changed";
+        String response = "Customer name changed to: " + name;
         labelResponse.setText(response);
     }
 
