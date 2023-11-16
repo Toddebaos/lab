@@ -87,6 +87,6 @@
  layoutX="55.0"
  layoutY="500.0"
  prefHeight="17.0"
- prefWidth="125.0" />
+ prefWidth="350.0" />
  </children>
 </AnchorPane>
